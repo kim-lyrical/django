@@ -12,4 +12,4 @@ from .models import *
 class AllPacketOption(admin.ModelAdmin):
     list_display = ['id','time','srcip','dstip','protocol','length','info','carve']
 
-admin.site.register(AllPacket,AllPacketOption)
+admin.site.register(AllPacket,AllPacketOption)
